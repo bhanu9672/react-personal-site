@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Scribble&display=swap');
+
+header {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: hsla(0,0%,98%,.4);
+    color: var(--black);
+    font-family: Taviraj,serif;
+    min-width: 50px;
+    position: fixed!important;
+    width: 100%;
+    z-index: 10;
+}
+html {
+    font-family: monospace,cursive;
+    font-weight: 500;
+    transition: 1s ease;
+    color: #333;
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: 25px;
+}
+h1 {
+    font-family: 'Rubik Scribble', system-ui;
+}
