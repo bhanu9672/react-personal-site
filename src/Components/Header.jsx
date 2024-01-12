@@ -38,7 +38,6 @@ const Header = () => {
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        {/* auth */}
                         <a
                             className="px-5 py-1 bg-gray-50 rounded-full ring-1 ring-gray-100 hover:bg-white"
                             href="#"
