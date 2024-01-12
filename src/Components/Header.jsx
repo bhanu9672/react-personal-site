@@ -39,7 +39,7 @@ const Header = () => {
                             </li>
                         </ul>
                         <a
-                            className="px-5 py-1 bg-gray-50 rounded-full ring-1 ring-gray-100 hover:bg-white"
+                            className="px-5 py-1  rounded-full ring-1 bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300"
                             href="#"
                         >
                             Get Resume

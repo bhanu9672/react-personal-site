@@ -6,11 +6,13 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import About from './Components/About';
 import Project from './Components/Project';
+import Hero from './Components/Hero';
 
 function App() {
 	return (
 		<div className="App">
 			<Header />
+			<Hero />
 			<About />
 			<Skills />
 			<Project />
