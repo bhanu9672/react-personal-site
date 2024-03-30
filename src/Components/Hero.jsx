@@ -50,7 +50,7 @@ const Hero = () => {
                                             </svg>
                                         </button>
                                         <h4 className="font-bold text-4xl text-yellow-900 md:text-5xl lg:w-10/12">
-                                    Web Designer based In New York
+                                    Web Designer based In India
                                     </h4>
                                 </div>
                                 <p className="mt-8 text-gray-700 lg:w-10/12">
