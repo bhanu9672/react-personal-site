@@ -15,11 +15,10 @@ const Hero = () => {
                                     I'm Bhanu Pratap Singh
                                 </h1>
                                 <div className="w-full mt-12">
-                                    
                                         <button
                                             type="button"
                                             title="Start buying"
-                                            className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
+                                            className="ml-auto mb-10 mr-5 py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
                                         >
                                             <span className="hidden text-yellow-900 font-semibold md:block">
                                                 More About Me
