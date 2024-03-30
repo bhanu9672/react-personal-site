@@ -15,53 +15,37 @@ const Hero = () => {
                                     I'm Bhanu Pratap Singh
                                 </h1>
                                 <div className="w-full mt-12">
-                                        <button
-                                            type="button"
-                                            title="Start buying"
-                                            className="ml-auto mb-10 mr-5 py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
-                                        >
-                                            <span className="hidden text-yellow-900 font-semibold md:block">
-                                                More About Me
-                                            </span>
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="w-5 mx-auto text-yellow-900 md:hidden"
-                                                fill="currentColor"
-                                                viewBox="0 0 16 16"
-                                            >
-                                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                            </svg>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            title="Start buying"
-                                            className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
-                                        >
-                                            <span className="hidden text-yellow-900 font-semibold md:block">
-                                                Contact Me
-                                            </span>
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="w-5 mx-auto text-yellow-900 md:hidden"
-                                                fill="currentColor"
-                                                viewBox="0 0 16 16"
-                                            >
-                                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                            </svg>
-                                        </button>
-                                        <h4 className="font-bold text-4xl text-yellow-900 md:text-5xl lg:w-10/12">
-                                    Web Designer based In India
+                                    <a
+                                        title="About Me"
+                                        href='#about'
+                                        className="ml-auto mb-10 mr-5 py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400"
+                                    >
+                                        <span className="text-yellow-900 font-semibold">
+                                            About Me
+                                        </span>
+                                    </a>
+                                    <a
+                                        title="Contact Me"
+                                        href='#contact'
+                                        className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400"
+                                    >
+                                        <span className="text-yellow-900 font-semibold">
+                                            Contact Me
+                                        </span>
+                                    </a>
+                                    <h4 className="font-bold text-4xl text-yellow-900 md:text-5xl lg:w-10/12 mt-8">
+                                        Web Developer based In India
                                     </h4>
                                 </div>
                                 <p className="mt-8 text-gray-700 lg:w-10/12">
-                                    Sit amet consectetur adipisicing elit.{" "}
-                                    <a href="#" className="text-yellow-700">
+                                    Sit amet consectetur adipisicing elit.
+                                    <a href="#contact" className="text-yellow-700">
                                         connection
-                                    </a>{" "}
+                                    </a>
                                     tenetur nihil quaerat suscipit, sunt dignissimos.
                                 </p>
                             </div>
-                            <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
+                            <div className="ml-auto lg:w-6/12">
                                 <img
                                     src="https://avatars.githubusercontent.com/u/70773520?s=400&u=ba9dcbf361c98d845115fcb537fc5108dc2e9a13&v=4"
                                     className="relative bg-gray-50 h-96 w-96 mx-auto"

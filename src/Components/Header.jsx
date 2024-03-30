@@ -1,4 +1,23 @@
+import resume from "./resume.pdf"
 const Header = () => {
+    const onButtonClick = () => {
+     
+        // using Java Script method to get PDF file
+        fetch(resume).then((response) => {
+            response.blob().then((blob) => {
+             
+                // Creating new object of PDF file
+                const fileURL =
+                    window.URL.createObjectURL(blob);
+                     
+                // Setting various property values
+                let alink = document.createElement("a");
+                alink.href = fileURL;
+                alink.download = resume;
+                alink.click();
+            });
+        });
+    };
     return (
         <>
             <header>
@@ -38,12 +57,12 @@ const Header = () => {
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <a
+                        <button
                             className="px-5 py-1  rounded-full ring-1 bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300"
-                            href="#"
+                            onClick={onButtonClick}
                         >
                             Get Resume
-                        </a>
+                        </button>
                     </nav>
                 </div>
             </header>
